@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(75, 152, 75, 0.516);
+}
+#board {
+    width: 80%;
+    max-width: 500px;
+    min-width: 250px;
+    margin: auto;
+    border: 1px solid;
+    aspect-ratio: 1/1;
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    overflow: hidden;
+}
+#board span {
+    width: 3.2%;
+    height: 3.2%;
+    font-size: 0px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+button {
+    margin: 50px auto;
+    display: block;
+    height: 40px;
+    background-color: aquamarine;
+}
+button:hover {
+    opacity: 0.9;
+    background-color: aqua;
+}
+button:active {
+    color: aliceblue;
+    background-color: darkcyan;
+}
